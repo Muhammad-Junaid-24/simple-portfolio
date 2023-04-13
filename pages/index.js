@@ -74,7 +74,7 @@ export default function Home() {
               Technologies I Have Used
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Here are all the awesome technologies I've worked with
+            Here are all the awesome technologies I&apos;ve worked with
             </p>
           </div>
           <div className="lg:flex gap-10">
@@ -116,7 +116,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Take a look at some of the cool projects I've made
+            Take a look at some of the cool projects I&apos;ve made
             </p>
           </div>
           <div className="flex flex-col gap-10 lg:flex-row lg:flex-wrap items-center">
