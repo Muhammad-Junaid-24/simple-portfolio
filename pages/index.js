@@ -16,6 +16,8 @@ import web6 from "../public/web6.png";
 import frontend from "../public/frontend.png";
 import backend from "../public/backend.png";
 import hoobank from "../public/hoobank.png";
+import vroomClient from "../public/vroom-client.png"
+import vroomAdmin from "../public/vroom-admin.png"
 import jira from '../public/jira.png'
 
 export default function Home() {
@@ -121,7 +123,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 lg:flex-row lg:flex-wrap items-center">
             <div className="max-w-[370px]">
-              <Image className="rounded-md object-contain" fill src={hoobank} />
+              <Image className="rounded-md object-contain cursor-pointer" fill src={hoobank} />
               <div className="w-full flex justify-center gap-x-4 mt-6">
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md hover:scale-110 transition"
@@ -132,6 +134,40 @@ export default function Home() {
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md hover:scale-110 transition"
                   href="https://github.com/Muhammad-Junaid-24/bank-app-frontend"
+                >
+                  Github Repo
+                </a>
+              </div>
+            </div>
+            <div className="max-w-[370px]">
+              <Image className="rounded-md object-contain cursor-pointer" fill src={vroomClient} />
+              <div className="w-full flex justify-center gap-x-4 mt-6">
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md hover:scale-110 transition"
+                  href="https://vroom-by-baazigar.netlify.app/"
+                >
+                  Live Demo
+                </a>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md hover:scale-110 transition"
+                  href="https://github.com/Muhammad-Junaid-24/vroom-frontend-client"
+                >
+                  Github Repo
+                </a>
+              </div>
+            </div>
+            <div className="max-w-[370px]">
+              <Image className="rounded-md object-contain cursor-pointer" fill src={vroomAdmin} />
+              <div className="w-full flex justify-center gap-x-4 mt-6">
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md hover:scale-110 transition"
+                  href="https://admin-vroom-by-baazigar.netlify.app/"
+                >
+                  Live Demo
+                </a>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md hover:scale-110 transition"
+                  href="https://github.com/Muhammad-Junaid-24/vroom-frontend-admin"
                 >
                   Github Repo
                 </a>
