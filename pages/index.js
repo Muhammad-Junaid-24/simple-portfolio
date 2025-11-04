@@ -21,6 +21,7 @@ import vroomAdmin from "../public/vroom-admin.png"
 import jira from '../public/jira.png'
 import svx from '../public/svx-logo.png'
 import plra from '../public/plra-logo.png'
+import me from '../public/me.jpg'
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -68,7 +69,7 @@ export default function Home() {
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={me} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
