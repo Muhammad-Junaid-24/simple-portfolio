@@ -19,6 +19,8 @@ import hoobank from "../public/hoobank.png";
 import vroomClient from "../public/vroom-client.png"
 import vroomAdmin from "../public/vroom-admin.png"
 import jira from '../public/jira.png'
+import svx from '../public/svx-logo.png'
+import plra from '../public/plra-logo.png'
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -51,8 +53,8 @@ export default function Home() {
               Software Engineer | MERN Stack Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Experienced Software Engineer with 6+ months of MERN stack
-              development experience. Skilled in designing, developing, and
+              Experienced Software Engineer with 5+ years of MERN stack
+              development experience working in <b>fast paced, high throughput environments</b>. Skilled in designing, developing, and
               maintaining software applications that meet client needs.
               Collaborative team player committed to staying up-to-date with
               emerging technologies and industry trends.
@@ -89,6 +91,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">HTML</p>
               <p className="text-gray-800 py-1">CSS</p>
               <p className="text-gray-800 py-1">NextJS</p>
+              <p className="text-gray-800 py-1">Angular</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={backend} width={100} height={100} />
@@ -98,7 +101,11 @@ export default function Home() {
               <p className="text-gray-800 py-1">NodeJS</p>
               <p className="text-gray-800 py-1">Express</p>
               <p className="text-gray-800 py-1">PostgreSQL</p>
+              <p className="text-gray-800 py-1">JavaScript/TypeScript</p>
+              <p className="text-gray-800 py-1">MySQL</p>
               <p className="text-gray-800 py-1">MongoDB</p>
+              <p className="text-gray-800 py-1">MS SQL Server</p>
+              <p className="text-gray-800 py-1">.NET</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={jira} width={150} height={100} className="object-contain"/>
@@ -108,9 +115,14 @@ export default function Home() {
               <p className="text-gray-800 py-1">JIRA</p>
               <p className="text-gray-800 py-1">Git & Github</p>
               <p className="text-gray-800 py-1">
-                Stripe For Digital Payment Processing
+                Stripe
               </p>
-              <p className="text-gray-800 py-1">Figma</p>
+              <p className="text-gray-800 py-1">
+                Authorize.net For Digital Payment Processing
+              </p>
+              <p className="text-gray-800 py-1">
+                Azure, AWS
+              </p>
             </div>
           </div>
         </section>
@@ -123,54 +135,72 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 lg:flex-row lg:flex-wrap items-center">
             <div className="max-w-[370px]">
-              <Image className="rounded-md object-contain cursor-pointer" fill src={hoobank} />
+              <Image className="rounded-md object-contain cursor-pointer" width={370} height={100} src="https://pushbrands.app/wp-content/uploads/2023/12/push-brands.svg" />
               <div className="w-full flex justify-center gap-x-4 mt-6">
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md hover:scale-110 transition"
-                  href="https://hoobank-by-junaid.netlify.app/"
+                  href="https://pushbrands.app/"
                 >
-                  Live Demo
+                  Live Website
                 </a>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md hover:scale-110 transition"
-                  href="https://github.com/Muhammad-Junaid-24/bank-app-frontend"
+                  href="https://github.com/Muhammad-Junaid-24/pushbrands"
                 >
-                  Github Repo
+                  Github Repository
                 </a>
               </div>
             </div>
             <div className="max-w-[370px]">
-              <Image className="rounded-md object-contain cursor-pointer" fill src={vroomClient} />
+              <Image className="rounded-md object-contain cursor-pointer" fill src={svx} />
               <div className="w-full flex justify-center gap-x-4 mt-6">
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md hover:scale-110 transition"
-                  href="https://vroom-by-baazigar.netlify.app/"
+                  href="https://impactindex.svx.ca/"
                 >
-                  Live Demo
+                  Live Website
                 </a>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md hover:scale-110 transition"
-                  href="https://github.com/Muhammad-Junaid-24/vroom-frontend-client"
+                  href="https://github.com/Muhammad-Junaid-24/svx"
                 >
-                  Github Repo
+                  Github Repository
                 </a>
               </div>
             </div>
             <div className="max-w-[370px]">
-              <Image className="rounded-md object-contain cursor-pointer" fill src={vroomAdmin} />
+              <div className="relative rounded-md bg-gray-100 dark:bg-gray-800 flex items-center justify-center min-h-[200px] w-full">
+                <h3 className="text-5xl font-bold text-gray-800 dark:text-white">Clients.ai</h3>
+              </div>
               <div className="w-full flex justify-center gap-x-4 mt-6">
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md hover:scale-110 transition"
-                  href="https://admin-vroom-by-baazigar.netlify.app/"
+                  href="https://www.clients.ai/"
                 >
-                  Live Demo
+                  Live Website
                 </a>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md hover:scale-110 transition"
-                  href="https://github.com/Muhammad-Junaid-24/vroom-frontend-admin"
+                  href="https://github.com/Muhammad-Junaid-24/prognostic-ai"
                 >
-                  Github Repo
+                  Github Repository
                 </a>
+              </div>
+            </div>
+            <div className="max-w-[370px]">
+              <Image className="rounded-md object-contain cursor-pointer" width={370} height={100} src={plra}/>
+              <div className="w-full flex justify-center gap-x-4 mt-6">
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md hover:scale-110 transition"
+                  href="https://arazimoawin.punjab-zameen.gov.pk/"
+                >
+                  Live Website
+                </a>
+              </div>
+            </div>
+            <div className="max-w-[370px]">
+              <div className="relative rounded-md bg-gray-100 dark:bg-gray-800 flex items-center justify-center min-h-[200px] w-full">
+                <h3 className="text-5xl font-bold text-gray-800 dark:text-white">More projects to be added soon...</h3>
               </div>
             </div>
           </div>
